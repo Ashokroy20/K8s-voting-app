@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Ashokroy20_K8s_voting_app_1700921241381-push-trigger-input-set
+  identifier: Build_Ashokroy20_K8s_voting_app_1700921241381pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Ashokroy20_K8s_voting_app_1700921241381
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
